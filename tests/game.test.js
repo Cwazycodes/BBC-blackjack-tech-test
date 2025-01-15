@@ -1,4 +1,4 @@
-const Hand = require("../src/hand");
+const Hand = require("../src/game");
 
 test("A hand should start with two cards", () => {
   const hand = new Hand(["Ace", "King"]);
